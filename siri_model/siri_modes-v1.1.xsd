@@ -283,6 +283,8 @@ Rail transport, Roads and road transport
 			<xsd:enumeration value="local"/>
 			<xsd:enumeration value="loc13_1"/>
 			<xsd:enumeration value="international"/>
+			<xsd:enumeration value="avg"/>
+			<xsd:enumeration value="ra"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<!-- ======================================================================= -->
@@ -651,6 +653,9 @@ Rail transport, Roads and road transport
 			<xsd:enumeration value="allTaxiServices"/>
 			<xsd:enumeration value="pti11_255"/>
 			<xsd:enumeration value="undefinedTaxiService"/>
+			<xsd:enumeration value="valysBasis"/>
+			<xsd:enumeration value="valysBegeleid"/>
+			<xsd:enumeration value="valysVrij"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<!-- ======================================================================= -->
