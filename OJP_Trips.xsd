@@ -620,7 +620,7 @@
 			<xs:documentation>Describes the situation at a stop or station that lies between the LegBoard and LegAlight stop or station including time-related information.</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:group ref="StopPointGroup"/>
+			<xs:group ref="PlaceRefStructure"/>
 			<xs:element name="ServiceArrival">
 				<xs:annotation>
 					<xs:documentation>describes the arrival situation a this leg board stop point (empty for first leg) ( group of attributes of TIMETABLED PASSING TIME, ESTIMATED PASSING TIME, OBSERVED PASSING TIME)</xs:documentation>
